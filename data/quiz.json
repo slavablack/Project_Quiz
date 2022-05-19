@@ -1,0 +1,57 @@
+[
+  {
+    "Frage": "Was ist HTML?",
+    "antwort": [
+      "Himel Text Multi Language",
+      "Hyper Text Markup Language",
+      "Hunden Text Multi Language"
+    ],
+    "correct": 2
+  },
+  {
+    "Frage": "Was ist ein Tag?",
+    "antwort": ["Bundes Tag", "Sonn Tag", "Symbole, die Inhalte einschließen"],
+    "correct": 3
+  },
+  {
+    "Frage": "Was ist XHTML?",
+    "antwort": [
+      "dass XHTML eine eigene Version von HTL ist",
+      "HTML Groß",
+      "Language Sprache"
+    ],
+    "correct": 1
+  },
+  {
+    "Frage": "Wie lässt sich JavaScript in eine Webseite einfügen?",
+    "antwort": [
+      "offline",
+      "online",
+      "inline und ducrch einen Link auf JS-datei"
+    ],
+    "correct": 3
+  },
+  {
+    "Frage": "Was sind APIs?",
+    "antwort": [
+      "Application Programming Interface",
+      "Application Programierung Intern",
+      " Applicationung Programierung Interface"
+    ],
+    "correct": 1
+  },
+  {
+    "Frage": "Was ist WebSQL?",
+    "antwort": [
+      "Web Game",
+      "WebSQL ist eine Datenbank, die Informationen über die Leute speichert, die deine Webseite besuchen oder sich auf ihr registrieren. ",
+      "Squied web Game"
+    ],
+    "correct": 2
+  },
+  {
+    "Frage": "Unterstützt HTML 5 Videoinhalte?",
+    "antwort": ["Ja", "Nein"],
+    "correct": 1
+  }
+]
