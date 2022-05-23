@@ -20,10 +20,19 @@ const quizSchema = new mongoose.Schema({
   correct: Number,
 });
 const Quiz = mongoose.model("QuizApp", quizSchema, "quizquestions");
-
 const getQuestions = async () => {
   return await Quiz.find().exec();
 };
+
+const newPlayer = new mongoose.Schema({
+  Name: String,
+});
+const Player = mongoose.model("Users", newPlayer, "users");
+
+const addNewPlayer = async () => {
+  return await Player.find().exec();
+};
+
 app.get("/", async (req, res) => {
   try {
     const data = await getQuestions();
@@ -32,9 +41,9 @@ app.get("/", async (req, res) => {
     res.json({ err: err.message });
   }
 });
-app.post("/newGamer", async (req, res) => {
+app.post("/addPlayer", async (req, res) => {
   try {
-    const newGamer = new Quiz({
+    const newGamer = new Player({
       ...req.body,
     });
     const newSpieler = await newGamer.save();
