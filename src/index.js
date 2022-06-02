@@ -41,7 +41,10 @@ app.get("/", async (req, res) => {
     res.json({ err: err.message });
   }
 });
-app.post("/addPlayer", async (req, res) => {
+app.post("/addplayer", async (req, res) => {
+  // res.header("Access-Control-Allow-Methods", "POST");
+  // console.log(req);
+  console.log(req.body);
   try {
     const newGamer = new Player({
       ...req.body,

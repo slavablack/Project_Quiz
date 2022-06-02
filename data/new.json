@@ -1,0 +1,60 @@
+[
+  {
+    "Frage": "Wie heißt der Erfinder von JavaScript?",
+    "antwort": ["Douglas Crockford", "Brendan Eich", "Steve Jobs"],
+    "correct": 1
+  },
+  {
+    "Frage": "Welche der folgenden Sprachen hatte keinen Einfluss auf JS?",
+    "antwort": ["Scheme", "Java", "Prolog"],
+    "correct": 2
+  },
+  {
+    "Frage": "Wie lautete der Mädchenname von JavaScript kurz nach ihrer Geburt?",
+    "antwort": ["Mocha", "Macha", "Mucha"],
+    "correct": 0
+  },
+  {
+    "Frage": "What is the correct command to create a new React project?",
+    "antwort": [
+      "npm create-react-app",
+      "npx create-react-app myApp",
+      "npx create"
+    ],
+    "correct": 1
+  },
+  {
+    "Frage": "What command is used to start the React local development server?",
+    "antwort": [
+      "npm create-react-app",
+      "npx create-react-app myApp",
+      "npx create"
+    ],
+    "correct": 1
+  },
+  {
+    "Frage": "Was ist MongoDB",
+    "antwort": ["A file system", "NoSQL database", "Data Base"],
+    "correct": 1
+  },
+  {
+    "Frage": "Wie kann man database in MongoDB schreiben?",
+    "antwort": ["use databaseName", "neue databaseName", "create databaseName"],
+    "correct": 0
+  },
+  {
+    "Frage": "Welche sind nicht a NoSQL bankdaten?",
+    "antwort": ["SQL", "MongoDB", "CASSANDRA"],
+    "correct": 0
+  },
+  {
+    "Frage": "Welche ist erste in MongoDB dokument?",
+    "antwort": ["id", "_id", "objekt"],
+    "correct": 1
+  },
+  {
+    "Frage": " In which format MongoDB represents document structure?",
+    "antwort": ["BSON", ".txt", ".Docx"],
+    "correct": 0
+  }
+]
