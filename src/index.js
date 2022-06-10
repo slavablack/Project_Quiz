@@ -8,7 +8,7 @@ import cors from "cors";
 
 dotenv.config();
 const app = express();
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 const port = process.env.PORT || 3000;
 // const connect = process.env.DB_LOCALCONNECTION;
@@ -41,20 +41,20 @@ app.get("/", async (req, res) => {
     res.json({ err: err.message });
   }
 });
-app.post("/addplayer", async (req, res) => {
-  // res.header("Access-Control-Allow-Methods", "POST");
-  // console.log(req);
-  console.log(req.body);
-  try {
-    const newGamer = new Player({
-      ...req.body,
-    });
-    const newSpieler = await newGamer.save();
-    res.json(newSpieler);
-  } catch (err) {
-    res.json({ err: err.message });
-  }
-});
+// app.post("/addplayer", async (req, res) => {
+//   // res.header("Access-Control-Allow-Methods", "POST");
+//   // console.log(req);
+//   console.log(req.body);
+//   try {
+//     const newGamer = new Player({
+//       ...req.body,
+//     });
+//     const newSpieler = await newGamer.save();
+//     res.json(newSpieler);
+//   } catch (err) {
+//     res.json({ err: err.message });
+//   }
+// });
 
 // app.listen(port, () => {
 //   console.log(`Example app listening on port ${port}`);
